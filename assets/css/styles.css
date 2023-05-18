@@ -669,7 +669,9 @@ row-gap: 1rem;
   }
   .services__card{
     padding-block: 1rem;
-
+  }
+  .footer__social{
+    column-gap: .5rem;
   }
 }
 
