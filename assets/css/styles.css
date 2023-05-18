@@ -697,17 +697,13 @@ row-gap: 1rem;
   }
 
   .contact__container{
-    padding-block: 2.5rem 2rem;
+    padding-block: 1.5rem 1rem;
   }
   
   .contact__form{
     row-gap: .5rem;
   }
   
-  .contact__group{
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: .5rem;
-  }
   
   .contact__input{
     padding: .5rem;
