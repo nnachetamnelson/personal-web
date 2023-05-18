@@ -25,23 +25,27 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
+                     <a href="#home" style="--i : 1;" class="nav__link active-link" >Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#about" class="nav__link">About</a>
+                     <a href="#about" style="--i : 2;"class="nav__link">About</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#services" class="nav__link">Services</a>
+                     <a href="#services" style="--i : 3;" class="nav__link">Services</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#blog" style="--i : 4;" class="nav__link">Blog</a>
                   </li>
            
                   <li class="nav__item">
-                     <a href="#projects" class="nav__link">Projects</a>
+                     <a href="#projects" style="--i : 5;" class="nav__link">Projects</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#contact" class="nav__link">Contact</a>
+                     <a href="#contact" style="--i : 6;" class="nav__link">Contact</a>
                   </li>
 
                </ul>
@@ -72,7 +76,7 @@
                      <h1 class="home__tittle">
                         Nnachetam Nelson
                      </h1>
-                     <h3 class="home__education">Full-Stack Developer</h3>
+                     <h3 class="home__education"><span id="element"></span></h3>
                      <p class="home__description">With knowledge in web and software development, I offer the best projects resulting 
                         in quality work.</p>
                      <a href="#contact" class="button">Let's Talk</a>
@@ -183,40 +187,240 @@
 
          <!--==================== SKILLS ====================-->
          <section class="skills section">
+            <div class="skills__container container grid">
+               <div class="skills__data">
+                  <h3 class="section__subtitle">
+                     Favorite <span>Skills</span>
+                  </h3>
+                  <h2 class="section__title">
+                     My Skills
+                  </h2>
+                  <p class="skills__description">
+                     See fully what skills I have and perform,
+to develop the projects for you.
+
+                  </p>
+                  <a href="#projects" class="button">See projects</a>
+               </div>
+               <div class="skills__content">
+                  
+                  <ol class="skills__group">
+                     <li class="skills__items">HTML & CSS</li>
+                     <li class="skills__items">JavaScript</li>
+                     <li class="skills__items">Bootstrap</li>
+                     <li class="skills__items">Tailwnd css</li>
+                     <li class="skills__items">Three js</li>
+                     <li class="skills__items">Node.js</li>
+                     <li class="skills__items">Next js</li>
+                  </ol>
+                  <ol class="skills__group" start="8">
+                     <li class="skills__items">React</li>
+                     <li class="skills__items">React Native</li>
+                     <li class="skills__items">Express</li>              
+                     <li class="skills__items">python</li>
+                     <li class="skills__items">django</li>
+                     <li class="skills__items">MongoDB</li>
+                     <li class="skills__items">Git & GitHub</li>
+                  </ol>
+               </div>
+            </div>
             
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section" id="services">
-            
+            <h3 class="section__subtitle">
+               My <span>Services
+            </h3>
+            <h2 class="section__title">
+               What I Do
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-layout-line services__icon"></i>
+                  <h2 class="services__tittle">Web Development</h2>
+                  <p class="services__description">Designing and building responsive websites tailored to clients' needs, using modern front-end and back-end technologies.</p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-code-box-fill services__icon"></i>
+                  <h2 class="services__tittle">Custom Software Development</h2>
+                  <p class="services__description">Developing customized software solutions that address specific business requirements and enhance operational efficiency.</p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-cellphone-fill services__icon"></i>
+                  <h2 class="services__tittle">Mobile App Development</h2>
+                  <p class="services__description">Creating native or cross-platform mobile applications that deliver a seamless user experience across iOS and Android platforms.</p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-wifi-line services__icon" ></i>
+                  <h2 class="services__tittle">API Development</h2>
+                  <p class="services__description">Designing and implementing robust APIs (Application Programming Interfaces) for seamless integration with third-party systems or creating a platform for other developers to build upon.</p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-file-text-line services__icon"></i>
+                  <h2 class="services__tittle">CMS Development</h2>
+                  <p class="services__description">Developing content management systems (CMS) to enable clients to easily manage and update their website content without technical knowledge.</p>
+               </article>
+               <article class="services__card">
+                  <i class="ri-upload-cloud-2-line services__icon"></i>
+                  <h2 class="services__tittle">Technology Upgrades and Migration</h2>
+                  <p class="services__description">Assisting clients in upgrading their existing systems or migrating them to newer technologies, ensuring a smooth transition and minimal disruption.</p>
+               </article>
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+               My <span>Jobs</span>
+            </h3>
+            <h2 class="section__title">
+               Recent Projects
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <img src="assets/img/project-img-1.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-2.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-3.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-4.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-5.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <img src="assets/img/project-img-6.jpg" alt="project image" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="project__subtitle">Web</span>
+                     <h2 class="projects__title">Modern website</h2>
+                     <a href="" class="projects__button">View demo<i class="ri-external-link-line"></i></a>
+                  </div>
+               </article>
+
+            </div>
+
             
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+               Get In <span>Touch</span>
+
+            </h3>
+            <h2 class="section__title">
+               Contact Me
+            </h2>
+            <div class="contact__container container grid">
+               <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                     <input type="text" name= "user-name" required placeholder="Enter your name" class="contact__input">
+                     <input type="email" name= "user-email" required placeholder="Enter your email" class="contact__input">
+                  </div>
+                  <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+                  <p class="contact__message" id="contact-message"></p>
+                  <button type="submit" class="button contact__button">
+                     Send Message
+                  </button>
+               </form>
+            </div>
             
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">
+                  Nnachetam <span>Nelson</span>
+               </h1>
+               <h2 class="footer__education">
+                  Full-Stack Developer
+               </h2>
+            </div>
+            <div class="footer__social">
+               <a href="https://www.facebook.com/" target="_blank" class="footer__socail-link"><i class="ri-facebook-line"></i></a>
+               <a href="https://www.instagram.com/" target="_blank" class="footer__socail-link"><i class="ri-instagram-line"></i></a>
+               <a href="https://twitter.com/" target="_blank" class="footer__socail-link"><i class="ri-twitter-line"></i></a>
+            </div>
+            <span class="footer__copy">
+              &copy; <span id="copyright-year"></span> Copyright Nelxxytech. All rights reserved
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
       
-
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== EMAIL JS ===============-->
-      
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+      
+
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+      <!-- Setup and start animation! -->
+      <script>
+       var typed = new Typed('#element', {
+          strings: ['<i>Web</i> Developer.', ' Software Developer.'],
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 1000,
+          loop: true,
+        });
+      </script>
+      
+      <script>
+         document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+     </script>
    </body>
 </html>
