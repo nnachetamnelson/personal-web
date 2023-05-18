@@ -264,10 +264,8 @@ z-index: -1;
 
 /*=============== HOME ===============*/
 
-.a{
-  display: inline-block;
-  animation-delay: calc(.2s * var(--i));
-}
+
+
 .home{
   background-color: var(--container-color);
 }
