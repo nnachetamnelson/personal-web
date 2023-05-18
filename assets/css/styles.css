@@ -679,6 +679,7 @@ row-gap: 1rem;
 
   .footer__copy{
     margin: 0;
+    padding: 1rem 1rem;
     justify-self: flex-end;
   }
 }
