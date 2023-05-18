@@ -678,7 +678,6 @@ row-gap: 1rem;
   }
 
   .footer__copy{
-    margin: 0;
     padding: 1rem 1rem;
     justify-self: flex-end;
   }
@@ -695,6 +694,11 @@ row-gap: 1rem;
     grid-template-columns: 250px;
     justify-content: center;
 
+  }
+
+  .footer__copy{
+    padding: 1rem 1rem;
+    justify-self: flex-end;
   }
 }
 
