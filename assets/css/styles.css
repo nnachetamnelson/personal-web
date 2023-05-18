@@ -696,6 +696,10 @@ row-gap: 1rem;
 
   }
 
+  .footer{
+    padding-block: 2.5rem 2rem;
+  }
+
   .footer__copy{
     padding: 1rem 1rem;
     justify-self: flex-end;
