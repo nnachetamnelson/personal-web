@@ -695,7 +695,9 @@ row-gap: 1rem;
     justify-content: center;
 
   }
-
+  .services__card{
+    padding: 2rem 2rem;
+  }
   .contact__container{
     padding-block: .5rem .5rem;
   }
