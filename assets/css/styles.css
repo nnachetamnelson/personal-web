@@ -673,6 +673,11 @@ row-gap: 1rem;
   .footer__social{
     column-gap: .5rem;
   }
+
+  .footer__copy{
+    margin: 0;
+    justify-self: flex-end;
+  }
 }
 
 /* For medium devices */
