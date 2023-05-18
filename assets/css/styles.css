@@ -697,7 +697,7 @@ row-gap: 1rem;
   }
 
   .contact__container{
-    padding-block: 1.5rem 1rem;
+    padding-block: .5rem .5rem;
   }
   
   .contact__form{
