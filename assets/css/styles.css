@@ -691,7 +691,7 @@ row-gap: 1rem;
   .services__container,
   .projects__container,
   .contact__container{
-    grid-template-columns: 150px;
+    grid-template-columns: 350px;
     justify-content: center;
 
   }
